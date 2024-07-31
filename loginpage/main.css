@@ -1,0 +1,161 @@
+body {
+  margin: o;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+}
+.header {
+  display: flex;
+}
+.navbar {
+  background-color: rgb(242, 240, 240);
+  width: 100%;
+  height: 25%;
+  text-decoration: none;
+}
+
+#logo {
+  margin-left: 3%;
+  width: 5%;
+  height: 5%;
+}
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between; 
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+}
+nav :hover {
+  color: rgb(240, 160, 11);
+}
+.login{
+  background-color: red;
+  border: none;
+  padding: 5px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  
+  /* border-top-left-radius: 10%; */
+}
+.offer {
+  font-size: 20px;
+  align-items: center;
+  margin-left: 35%;
+  color: rgb(255, 255, 255);
+}
+.offer span {
+  color: red;
+}
+.offer :hover {
+  color: rgb(240, 160, 11);
+}
+.poster {
+  margin-top: 1%;
+}
+.menu {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.voucher {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.meal {
+  display: flex;
+  justify-content: space-between;
+}
+.meal2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.cities {
+  margin-left: 05%;
+}
+.cities :hover {
+  color: rgb(240, 160, 11);
+}
+#copy {
+  display: flex;
+  margin-left:35%;
+  
+}
+.footer {
+  padding: 50px 0;
+  background-color: rgb(126, 7, 7);
+}
+
+.footer .max-width {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer .footer-column {
+  flex-basis: 24%;
+}
+
+.footer .footer-column .logo img {
+  width: 180px;
+}
+
+.footer .footer-column p {
+  color: white;
+  margin-top: 10px;
+}
+
+.footer .footer-column h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer .footer-column ul li {
+  color: #ffffff;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
+
+.footer .footer-column ul li:hover {
+  color: white;
+}
+
+.footer .footer-column .footer-info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-column .footer-info span {
+  color: white;
+  font-size: 17px;
+}
+
+.footer .footer-column .footer-info i {
+  color: white;
+  font-size: 20px;
+}
+
+.footer .footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid #a1a1a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-bottom p {
+  color: #ffffff;
+}
+
+
+

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(grill\ login.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginform {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #4e514c63;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+.formpage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="phone no"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+#Sumbit {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: greenyellow;
+  cursor: pointer;
+  border: none;
+  color: black;
+}
+button:hover {
+  background-color: rgb(178, 186, 16);
+}
+.create {
+  text-align: center;
+}
+.create a {
+  color: green;
+  text-decoration: none;
+}
+.create a :hover {
+  text-decoration: underline;
+}
+/* .transition-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+} */
